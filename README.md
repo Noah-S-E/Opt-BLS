@@ -1,5 +1,5 @@
-# CmabSyn
-## [Logic Synthesis Compilation Autotuning through Combinatorial Multi-Armed Bandits](https://github.com/Noah-S-E/CmabSyn)
+# Opt-BLS
+## [Logic Synthesis Compilation Autotuning through Combinatorial Multi-Armed Bandits](https://github.com/Noah-S-E/Opt-BLS)
 
 ***
 **Env dependencies:**
@@ -19,7 +19,7 @@ make
 
 # Directory Structure
 ```
-CmabSyn/
+Opt-BLS/
 ├── README.md                     # Documentation and an overview of the project.
 ├── test.png                      # Example showing the optimization process.
 ├── benchmarks/                   # Includes three benchmark datasets used for testing and optimization.
@@ -41,15 +41,15 @@ CmabSyn/
 ## Our Work
 
 
-### **CmabSyn: An Optimization Framework for Logic Synthesis**
+### **Opt-BLS: Learning to Optimize Boolean Logic Synthesis**
 
-CmabSyn is a logic synthesis optimization framework based on the **Combinatorial Multi-Armed Bandit (CMAB)** algorithm. It tackles the challenges of exploring vast search spaces and avoiding local optima in circuit optimization by:
+Opt-BLS is a logic synthesis optimization framework based on the **Combinatorial Multi-Armed Bandit (CMAB)** algorithm. It tackles the challenges of exploring vast search spaces and avoiding local optima in circuit optimization by:
 
 - **Dependency-Aware Optimization**: Introducing dependency relations through arm combinations and coordinating optimization operators with immediate and long-term reward strategies.
 - **Learning with Linear Rewards**: Leveraging domain-specific knowledge to balance exploration and exploitation for decision-making.
 - **Parallelization**: Significantly enhancing efficiency and reducing runtime.
 
-Key results include up to **14.47% area improvement** and **1.38× runtime acceleration** for the ASAP 7nm standard cell library. CmabSyn demonstrates superior performance in **logic optimization**, **FPGA LUT mapping**, and **ASIC technology mapping**.
+Key results include up to **14.47% area improvement** and **1.38× runtime acceleration** for the ASAP 7nm standard cell library. Opt-BLS demonstrates superior performance in **logic optimization**, **FPGA LUT mapping**, and **ASIC technology mapping**.
 
 ---
 ### Optimization Example
